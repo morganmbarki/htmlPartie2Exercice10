@@ -1,0 +1,13 @@
+img {
+  width: 50%;
+}
+@media screen and (min-width: 376px) and (max-width: 1024px) {
+  img {
+    width: 75%;
+  }
+}
+@media screen and (max-width: 675px){
+  img {
+    width: 100%;
+  }
+}
